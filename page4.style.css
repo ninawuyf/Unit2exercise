@@ -1,0 +1,60 @@
+
+.left-image{
+    position: absolute;        
+    bottom: 100px;              
+    left: 100px;              
+    width: 100%;                
+    height: auto;
+}
+
+ .center-image{
+    position: absolute;        
+    bottom: 150px;              
+    left: 500px;              
+    width: 100%;               
+    height: auto;
+}
+
+
+.right-image{
+    position: absolute;       
+    bottom: 200px;             
+    right: 100px;               
+    width: 100%;                
+    height: auto;
+
+}
+
+.mini1-image{
+    position: absolute;
+    top: 100px;
+    left: 180px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    animation: pulse 2s infinite;
+}
+
+.mini2-image{
+    position: absolute;
+    bottom: 100px;
+    right: 500px;
+    width: 100%;
+    height: auto;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1); 
+    }
+    50% {
+        transform: scale(1.6); 
+    }
+}
+
+
+    
